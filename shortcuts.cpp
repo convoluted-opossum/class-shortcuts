@@ -12,7 +12,7 @@ int main(){
 	int x{};
 	while (x < 9) {
 	system("cls");
-	std::cout << "Choose an option\n\n" << "1 Ping IP\n" << "2 Tracert IP\n" << "3 Release and Renew\n" << "4 DNS Flush\n" << "5 Netstat\n" << "6 NS Lookup\n" << "7 Computer Info\n" << "8 Network Info\n\n";
+	std::cout <<"Github: convoluted-opossum\n\n" << "Choose an option\n\n" << "1 Ping IP\n" << "2 Tracert IP\n" << "3 Release and Renew\n" << "4 DNS Flush\n" << "5 Netstat\n" << "6 NS Lookup\n" << "7 Computer Info\n" << "8 Network Info\n\n";
 	std::cin >> x;
 	switch (x) {
 		case 1:
@@ -44,3 +44,4 @@ int main(){
 	return 0;
 }
 // End and Comments
+// Badly made by convoluted-opossum (Github)
