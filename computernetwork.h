@@ -52,7 +52,3 @@ void nslookup() {
 	system(nsup.c_str());
 }
 
-//void telnet() {
-//	std::cout << "This won't work if you haven't enabled Telnet on your PC\n\n";
-//
-//}
