@@ -48,7 +48,7 @@ void nslookup() {
 	std::string nsL;
 	std::cout << "Enter the domain to look up\n\n";
 	std::cin >> nsL;
-	std::string nsup = "nsloopup ls " + nsL + " >> nslookup%random%.dat";
+	std::string nsup = "nslookup ls " + nsL + " >> nslookup%random%.dat";
 	system(nsup.c_str());
 }
 
