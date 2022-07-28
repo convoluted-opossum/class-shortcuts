@@ -1,6 +1,5 @@
 // Libs
 #include <iostream>
-#include <fstream>
 #include <cstdlib>
 #include <string>
 // Headers
@@ -9,60 +8,39 @@
 // Namespace
 using namespace std;
 // Main body
-int main()
-{
-	int input;
-	
-	std::cout << "Choose an option\n\n" << "1 Ping IP\n" << "2 Tracert IP\n" << "3 Release and Renew\n" << "4 Netstat" << "5 Computer Info\n" << "6 Network Info\n" << "7 Flush Dns\n" << "8 Nslookup\n" << "9 EXIT\n\n";
-	std::cin >> input;
-
-	if (input == 1) {
-		ping();
-		
+int main(){
+	int x{};
+	while (x < 9) {
+	system("cls");
+	std::cout << "Choose an option\n\n" << "1 Ping IP\n" << "2 Tracert IP\n" << "3 Release and Renew\n" << "4 DNS Flush\n" << "5 Netstat\n" << "6 NS Lookup\n" << "7 Computer Info\n" << "8 Network Info\n\n";
+	std::cin >> x;
+	switch (x) {
+		case 1:
+			ping();
+			continue;
+		case 2:
+			tracenetwork();
+			continue;
+		case 3:
+			releaserenew();
+			continue;
+		case 4:
+			flush();
+			continue;
+		case 5:
+			netstat();
+			continue;
+		case 6:
+			nslookup();
+			continue;
+		case 7:
+			compinfo();
+			continue;
+		case 8:
+			networkinfo();
+			continue;
+		}
 	}
-
-	if (input == 2) {
-		tracenetwork();
-		
-	}
-
-	if (input == 3) {
-		releaserenew();
-		
-	}
-
-	if (input == 4) {
-		netstat();
-		
-	}
-
-	if (input == 5) {
-		compinfo();
-		
-	}
-
-	if (input == 6) {
-		networkinfo();
-		
-	}
-
-	if (input == 7) {
-		flush();
-		
-	}
-
-	if (input == 8) {
-		nslookup();
-		
-	}
-
-	if (input > 9) {
-		std::cout << "Between 1 to 9 ONLY try again\n\n";
-		system("cls");
-		
-	}
-
 	return 0;
 }
 // End and Comments
-
