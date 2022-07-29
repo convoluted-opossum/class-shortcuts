@@ -137,7 +137,7 @@ void oldbat() {
 }
 
 void makingbat() {
-	int MB;
+	int MB{};
 	while (MB < 8) {
 		string SYSTEMINFO = "@echo off\n systeminfo >> OUTPUT%random%.txt", 
 			IPCONFIGINFO = "@echo off\n ipconfig /all >> OUTPUT%random%.txt", 
