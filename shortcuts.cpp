@@ -58,9 +58,6 @@ int main(){
 		case 13: 
 			driverinfo();
 			continue;
-		case 222:
-			makingbat();
-			break;
 		}
 	}
 	return 0;
