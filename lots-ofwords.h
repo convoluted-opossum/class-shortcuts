@@ -8,7 +8,7 @@ void maintext() {
 	std::cout << "Github: convoluted-opossum\n\n"
 		"|#|------NETWORK------|#|--------SYSTEM----------[#]-----\n\n"
 		"[1] Ping IP --------- [7]  Computer Info -------- [0] For Old Bat File \n"
-		"[2] Tracert IP ------ [8]  Network Info --------- [22] Bat Maker \n"
+		"[2] Tracert IP ------ [8]  Network Info ---------\n"
 		"[3] Release Renew --- [9]  Program Lists --------\n"
 		"[4] Flush DNS ------- [10] Scan-Repair Windows --\n"
 		"[5] Netstat --------- [11] Check HDD ------------\n"
