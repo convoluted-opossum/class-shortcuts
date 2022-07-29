@@ -73,6 +73,7 @@
   <ItemGroup>
     <ClInclude Include="computernetwork.h" />
     <ClInclude Include="computersystem.h" />
+    <ClInclude Include="lots-ofwords.h" />
     <ClInclude Include="makebat-old.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

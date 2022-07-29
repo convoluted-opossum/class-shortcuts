@@ -29,5 +29,8 @@
     <ClInclude Include="makebat-old.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="lots-ofwords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

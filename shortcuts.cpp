@@ -6,14 +6,14 @@
 #include "computernetwork.h"
 #include "computersystem.h"
 #include "makebat-old.h"
+#include "lots-ofwords.h"
 // Namespace
 using namespace std;
 // Main body
 int main(){
 	int x{};
 	while (x < 9) {
-	system("cls");
-	std::cout <<"Github: convoluted-opossum\n\n" << "Choose an option\n\n" << "1 Ping IP\n" << "2 Tracert IP\n" << "3 Release and Renew\n" << "4 DNS Flush\n" << "5 Netstat\n" << "6 NS Lookup\n" << "7 Computer Info\n" << "8 Network Info\n\n" << "0 If You want the old bat file\n\n";
+	maintext();
 	std::cin >> x;
 	switch (x) {
 	    case 0:
@@ -43,6 +43,24 @@ int main(){
 		case 8:
 			networkinfo();
 			continue;
+		case 9:
+			programlist();
+			continue;
+		case 10:
+			scanwin();
+			continue;
+		case 11:
+			checkHDD();
+			continue;
+		case 12:
+			tempF();
+			continue;
+		case 13: 
+			driverinfo();
+			continue;
+		case 222:
+			makingbat();
+			break;
 		}
 	}
 	return 0;
