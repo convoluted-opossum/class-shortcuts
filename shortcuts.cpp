@@ -5,6 +5,7 @@
 // Headers
 #include "computernetwork.h"
 #include "computersystem.h"
+#include "makebat-old.h"
 // Namespace
 using namespace std;
 // Main body
@@ -12,9 +13,12 @@ int main(){
 	int x{};
 	while (x < 9) {
 	system("cls");
-	std::cout <<"Github: convoluted-opossum\n\n" << "Choose an option\n\n" << "1 Ping IP\n" << "2 Tracert IP\n" << "3 Release and Renew\n" << "4 DNS Flush\n" << "5 Netstat\n" << "6 NS Lookup\n" << "7 Computer Info\n" << "8 Network Info\n\n";
+	std::cout <<"Github: convoluted-opossum\n\n" << "Choose an option\n\n" << "1 Ping IP\n" << "2 Tracert IP\n" << "3 Release and Renew\n" << "4 DNS Flush\n" << "5 Netstat\n" << "6 NS Lookup\n" << "7 Computer Info\n" << "8 Network Info\n\n" << "0 If You want the old bat file\n\n";
 	std::cin >> x;
 	switch (x) {
+	    case 0:
+			oldbat();
+			continue;
 		case 1:
 			ping();
 			continue;

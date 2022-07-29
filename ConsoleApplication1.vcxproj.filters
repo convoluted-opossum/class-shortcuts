@@ -26,5 +26,8 @@
     <ClInclude Include="computernetwork.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="makebat-old.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
